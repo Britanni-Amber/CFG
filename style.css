@@ -1,0 +1,140 @@
+ * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100px;
+        text-align: center;
+    }
+    
+    .navbar-background {
+        background-position: right;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: right;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        float: center;
+        background-color: black;
+    }
+ 
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        position: relative;right: -250px;
+    }
+ 
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        position: left left;
+    }
+ 
+    .logo img {
+        width: 200px;
+        border-radius: 50px;
+        background-color: black;
+    }
+ 
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+ 
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-family: arial, sans-serif;
+        font-weight: 900;
+    }
+ 
+    .nav-list li a:hover {
+        color: rgba(232, 125, 180, 0.901);
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        opacity: 1; 
+    }
+
+
+    .firstsection {
+        height: 400px;
+    }
+ 
+    .box-main {
+        background-color: white;
+    }
+ 
+    .firsthalf {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .text-big {
+        font-family: 'arial', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative ;top: 400px; left: -10px;
+        text-align: center;
+        color: white;
+    }
+ 
+    .btn {
+        padding: 3px 20px;
+        margin: 7px 0;
+        border: 2px solid rgb(169, 45, 45);
+        border-radius: 10px;
+        background: red;
+        color: rgb(254, 253, 253);
+        cursor: pointer;
+        position: relative;top: 500px;
+        font-family: arial,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+ 
+    .center {
+        text-align: center;
+    }
+ 
+    .text-footer {
+        background-color: black;
+        text-align: center;
+        padding: 50px;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+        position: relative;top: 400px;
+    }
+
+    .blog1-img {
+        width: 500px;
+        height: 500px;
+        border-radius: 50px;
+        background-color: transparent;
+    }
+
+    .blog2-img {
+        width: 1000;
+        height: 1000;
+        border-radius: 100px;
+        background-color: transparent;
+    }
